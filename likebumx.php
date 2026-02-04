@@ -22,7 +22,7 @@ while (1) {$xoatk = [];
 $khi = -1; while (1) {$khi++;$baku=0;
 $test = chaytool();
     if ($test === "FILE TRONG") {echo "DA HET COOKIE\n";exit;}
-elseif ($test === "HET TAI KHOAN") {xoafb();tikeo();break;}
+elseif ($test === "HET TAI KHOAN") {xoafb();break;}
 $tenfb  = $test['tenfb'];
 $cookie = $test['cokie'];
 $uid    = $test['uid'];
@@ -198,6 +198,6 @@ break;usleep(300000);} /////while cho loa
 
 } /////// khi
 
-
+tikeo();
 
 }
