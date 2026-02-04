@@ -27,11 +27,11 @@ $tenfb  = $test['tenfb'];
 $cookie = $test['cokie'];
 $uid    = $test['uid'];
 $uta    = user_gen();
-$c66    = "user-agent: $uta";
+$fb2    = "user-agent: $uta";
 $fb14   = "Cookie: $cookie";
 $tsm21  = [$fb1, $fb2, $fb3, $fb4, $fb14];
 $tsm22  =  [$fb1, $fb2, $fb4, $ffb2, $fb14];
-$tsm80  = [$c66];
+$tsm80  = [$fb2];
 
 
 
