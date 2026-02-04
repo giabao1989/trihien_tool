@@ -137,7 +137,8 @@ if ($id === "DA LOI ROI") {baoloi();echo"LAY UID LOI\r";sleep(1);mothai();contin
 }
 
 
-
+$chanlike = chanlike();
+if ($chanlike === "JOB NAY DA LAM ROI") {baoloi();echo"$chanlike\r";sleep(2);mothai();continue;}
 
 
 
