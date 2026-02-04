@@ -32,10 +32,7 @@ $fb14   = "Cookie: $cookie";
 $tsm21  = [$fb1, $fb2, $fb3, $fb4, $fb14];
 $tsm22  =  [$fb1, $fb2, $fb4, $ffb2, $fb14];
 
-echo ">>$tenfb\n";
-echo ">>$uid\n";
-echo ">>$cookie\n";exit;
-
+loa();
 
 
 
