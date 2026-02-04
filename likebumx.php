@@ -135,11 +135,11 @@ echo"DANG TIM LAI ID\r";sleep(3);mothai();
 $id = fbm();
 if ($id === "DA LOI ROI") {baoloi();echo"LAY UID LOI\r";sleep(1);mothai();continue;}
 }
-
+$uuid = "$uid$id";        
 
 $chanlike = chanlike();
 if ($chanlike === "JOB NAY DA LAM ROI") {baoloi();echo"$chanlike\r";sleep(2);mothai();continue;}
-
+luuID();
 
 
 
