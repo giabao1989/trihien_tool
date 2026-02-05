@@ -40,7 +40,7 @@ echo ">>>>>\n";
 $loa1com = loa1();
 
 $buff_id = $loa1com['data'][0]['buff_id'];
-
+echo "$buff_id\n";
 print_r($loa1com);
 
 
