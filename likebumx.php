@@ -4,7 +4,7 @@
 
 
 $dabe =  date("d/m/Y");
-
+echo ">>$dabe\n";
 while (1) {
 
 $authu = tkvmk();
