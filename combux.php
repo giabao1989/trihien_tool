@@ -36,6 +36,7 @@ $uta = user_gen();
 
 loa();
 
+echo ">>>>>\n";
 $loa1com = loa1();
 $buff_id = $loa1['data'][$mi]['buff_id'];
 print_r($loa1com);
