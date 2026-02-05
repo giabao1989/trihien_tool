@@ -30,8 +30,12 @@ benne();kengang1();
 
 while (1) {$xoatk = [];
 
-$nhooi = in_array($dabe, $chandabe)
-if ($nhoioi == true) {} {$chandabe[]=$dabe;break;}
+$nhooi = in_array($dabe, $chandabe);
+if ($nhooi == true) {
+} else {
+    $chandabe[] = $dabe;
+    break;
+}
 
 
 
