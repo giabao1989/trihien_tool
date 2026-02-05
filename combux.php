@@ -28,7 +28,7 @@ if ($coixu === "AUTHU SAI" || $coixu === "AUTHU DIE"){exit;}
 $nv = "follow_youtube";
 
 
-echo ">>>$cokitup\n";exit;
+echo ">>>$cokitup\n";
 
 
 $thutup = ttaothu();
