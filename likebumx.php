@@ -11,7 +11,7 @@ $authu = tkvmk();
 
 $a5 = "authorization: $authu";
 $tsm99 = [$a1, $a2, $a3, $a4, $a5, $a6];
-
+print_r($tsm99);
 
 $coixu = getk();
 if ($coixu === "AUTHU SAI" || $coixu === "AUTHU DIE"){continue;}
