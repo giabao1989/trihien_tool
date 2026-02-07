@@ -25,7 +25,7 @@ if ($coixu === "AUTHU SAI" || $coixu === "AUTHU DIE"){exit;}
 
 
 
-$nv1 = "follow_youtube";
+$nv1 = "like_comment_youtube";
 
 
 
