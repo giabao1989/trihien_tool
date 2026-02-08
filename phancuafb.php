@@ -205,7 +205,7 @@ continue;}
 
 $tbon = 1;
 chutnang($tbon);
-$chonn = (int) input("MỜI BẠN CHỌN CHỨC NĂNG ");clear();
+$chonn =  input("MỜI BẠN CHỌN CHỨC NĂNG ");clear();
 if ($chonn == '') {break;}
 if ($chonn == 4 || $chonn == '') {$xemcoki = xemcoki();continue;}
 
