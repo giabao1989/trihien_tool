@@ -204,7 +204,7 @@ break;usleep(300000);} /////while cho loa
 
 
 tikeo();
-continue;}
+break;}
 
 
 
