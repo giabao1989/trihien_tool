@@ -196,8 +196,7 @@ $r=fb();
 if ($r==="DIE COOKIE"||$r==="LOI NHE"||$r==="CHECKPOI"){
 echo "$r\n";sleep(2); clear(); continue;}
 $tenfb=$r['tt'];
-
-echo ">>>>>>>$tenfb\n";exit;
+echo">$tenfb\n";
 $chonsua=2;tong();
 continue;}
 
