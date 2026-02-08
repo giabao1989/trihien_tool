@@ -151,7 +151,6 @@ echo "TAI KHOAN YOUTUBE : $khoan\n\n";}
 //// cuabux
 while (1) {$chonsua=null;
 $tkbux = tkbux();
-echo ">>>>>$tkbux\n";
 if ($tkbux === "TRUA CO TK") {
 $taikhoan  = input("NHAP GMAI TK BUMX");clear();
 $matkhau   = input("NHAP  MAT KK BUMX");clear();
