@@ -183,7 +183,7 @@ $chonsua=3;tong();
 continue;} /// trua co
 
 
-$tbon = 1;
+$tbon = 2;
 chutnang($tbon);
 $chonn = (int) input("MỜI BẠN CHỌN CHỨC NĂNG ");clear();
 
