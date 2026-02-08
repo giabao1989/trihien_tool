@@ -185,7 +185,10 @@ continue;} /// trua co
 $tbon = 2;
 chutnang($tbon);
 $chonb = (int) input("MỜI BẠN CHỌN CHỨC NĂNG ");clear();
-if ($chonb == 1 || $chonb == 2) {unlink(__DIR__ . '/youtube.txt');clear();continue;}
+
+if ($chonb == 1 || $chonb == 2) {xoayou();clear();continue;}
+
+
 break;}
 
 
