@@ -8,7 +8,7 @@
 
 
 $nom4 = explode("\n", @file_get_contents('tkbux.txt'));
-$nom3 = $nom3[0];
+$nom3 = $nom4[0];
 $taikhoan = explode('|', $nom3)[0];
 $matkhau  = explode('|', $nom3)[1];
 
