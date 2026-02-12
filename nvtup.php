@@ -35,3 +35,5 @@ elseif ($coixu === "TRUA BAT KIEM TIEN") {exit;}
 $nv = "like_poster";
 ///// xem co job khong
 $loa = loa();
+
+loa1();
