@@ -32,7 +32,7 @@ elseif ($coixu === "TRUA BAT KIEM TIEN") {exit;}
 
 
 
-$nv = "like_poster";
+$nv = "like_comment_youtube";
 ///// xem co job khong
 $loa = loa();
 
