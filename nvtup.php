@@ -39,7 +39,7 @@ $loa = loa();
 $loa1 = loa1();
 
 $buff_id = $loa1['data'][0]['buff_id'];
-if ($buff_id == false) {exit}
+if ($buff_id == false) {exit;}
 $nv1 = $loa1['data'][0]['type'];
 
 if ($nv1 === "like_comment_youtube") {} else {exit;}
