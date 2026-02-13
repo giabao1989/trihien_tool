@@ -77,6 +77,7 @@ echo ">>>>>>>$video\n";
 
 $tsm57 = [$you2, $you4];
 $nvideo = checkVideo();
+  echo"<><><>$nvideo\n";
 if (in_array($nvideo, $loi)) {echo "VIDEO BI LOI\n";exit;}
 
 
