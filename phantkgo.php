@@ -11,7 +11,7 @@ while (1) {
 
 echo "[ 1 ] THEM AUTHU GOLOKI\n";
 echo "[ 2 ] SUA  AUTHU GOLOKI ( THEO MÃNG )\n";
-
+$bamchon = input("MOI BAN CHON : ");
 
 
 
