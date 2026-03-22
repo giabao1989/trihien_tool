@@ -41,7 +41,7 @@ return ['xgo' => $xgo, 'chano' => $chano];}
 
 
 
-while (1) {$chonsua=null!
+while (1) {$chonsua=null;
 
 
 
