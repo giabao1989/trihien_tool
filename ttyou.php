@@ -57,7 +57,7 @@ if (!is_numeric($chontk)) continue;
 // ép kiểu
 $chontk = (int)$chontk;
 // vượt giới hạn
-if ($chontk >= $nayxoa) continue;
+if ($chontk >= $nayso) continue;
 
 
 
