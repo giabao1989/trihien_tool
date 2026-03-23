@@ -24,7 +24,7 @@ $goi = get_url($url, $tsm)['data'];
 $idtup = $goi['data'][0]['id'];
 if ($idtup == false) {return "TRUA CO KENH";}
 $vname = $goi['data'][0]['vname'];
-$nametp = $goi['data'][0]['nametup'];
+$nametup = $goi['data'][0]['nametup'];
 $chane = $goi['data'][0]['chane'];
 return ['idtup' => $idtup, 'vname' => $vname, 'nametup' => $nametup, 'chane' => $chane];}
 
@@ -49,7 +49,6 @@ $layds = layds();
 if ($layds === "KHONG CO TK NAO") {exit;}
 echo "\033[36m======================================\033[0m\n\n";
 $nayso = $layds['somay'];
-echo"$nayso\n";
 $chontk = trim(input("\033[33mCHON TAI KHOAN DE NHAP COOKIE YOUTUBE\033[0m (\033[31mENTER THOAT\033[0m) : "));
 // enter hoặc rỗng
 if ($chontk === '') continue;
