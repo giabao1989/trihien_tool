@@ -87,7 +87,7 @@ $goiyou = getyou();
 if ($goiyoy === "COOKIE YOU SAI") {continue;}
 $xgo = $goiyou['xgo'];
 $chano = $goiyou['chano'];
-if ($chano === "chane") {continue;}
+if ($chano === "$chane") {echo"COOKIE YOUTUBE NAY KHONG KHOP\r";sleep(2);clear();continue;}
 
 echo "DA LUU COKIE $nanetup vao file\n";sleep(2);clear();
 
