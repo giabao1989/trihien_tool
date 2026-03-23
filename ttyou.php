@@ -30,6 +30,7 @@ return ['idtup' => $idtup, 'vname' => $vname, 'nametup' => $nametup, 'chane' => 
 
 
 function getyou () {global $tsm55;
+print_r($tsm55);
 $url = "https://m.youtube.com/getAccountSwitcherEndpoint";
 $goi = GOIGET($url, $tsm55)['html'];
 $tentup = explode('"}', explode('accountName":{"simpleText":"', $goi)[1])[0];
