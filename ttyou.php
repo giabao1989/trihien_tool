@@ -81,7 +81,7 @@ $nametup = $nhaptup['nametup'];
 $chane   = $nhaptup['chane'];
 $cokitup = input("NHAP COOKIE YOUTUBE ( $nametup ) ");
 
-$chonsua = 1;
+$tsmchon = 1;
 $tsm55  = tsmtup();
 $goiyou = getyou();
 if ($goiyou === "COOKIE YOU SAI") {continue;}
